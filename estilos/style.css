@@ -1,0 +1,221 @@
+@charset "UTF-8";
+
+/*Configuração Mobile First*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body{
+    height: 100vh;
+
+}
+
+body{
+    background-image: linear-gradient(to top, white, #FF8C15);
+    background-attachment: fixed;
+
+}
+
+body > section#navegando{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 50px;
+
+}
+
+body > section#navegando > div{
+    background-color: #0086B2;
+    display: inline-block;
+    padding: 8px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 5px rgba(255, 255, 255, 0.467);
+
+}
+
+body > section#navegando > div:hover{
+    box-shadow: 1px 2px 4px white;
+    transform: translate(-3px, -3px);
+    transition-duration: 0.3s;
+
+}
+
+body > section#navegando > div > p > a{
+    color: yellow;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+/*------------------------------------------*/
+
+img#logo-noesa{
+    width: 200px;
+    display: block;
+    margin: auto;
+    margin-bottom: 17px;
+
+}
+
+h1{
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.711);
+    font-size: 45px;
+    text-decoration: underline;
+    margin: 7px;
+
+}
+
+p#título{
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 30px;
+
+}
+
+section#boas-vindas{
+    width: 400px;
+    margin: auto;
+    margin-bottom: 40px;
+    text-align: justify;
+    background-color: #0086B2;
+    padding: 15px;
+    border-radius: 8px;
+    color: yellow;
+    font-weight: bold;
+    line-height: 1.5em;
+    text-indent: 20px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.588);
+    text-align: center;
+
+}
+
+/*------------------------------------------*/
+
+main{
+    width: 458px;
+    margin: auto;
+    background-color: white;
+    border-radius: 8px;
+    padding: 8px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.588);
+    margin-bottom: 20px;
+
+}
+
+main > h2{
+    text-align: center;
+    color: #0086B2;
+    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.711);
+    margin-bottom: 30px;
+    margin-top: 10px;
+
+
+}
+
+main > section{
+    margin: auto;
+    background-color: #ff8e15be;
+    padding: 9px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+
+
+}
+
+img#foto01{
+    width: 250px;
+    display: block;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgba(255, 255, 255, 0.467);
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+
+img#foto02{
+    width: 350px;
+    display: block;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgba(255, 255, 255, 0.467);
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+
+img#foto03{
+    width: 350px;
+    height: 230px;
+    display: block;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgba(255, 255, 255, 0.467);
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+
+main > section > h3{
+    background-color: #0086B2;
+    color: yellow;
+    width: 300px;
+    padding: 6px;
+    border-radius: 8px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+
+
+}
+
+p#matéria{
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 1.5em;
+    width: 430px;
+    margin: auto;
+    margin-bottom: 30px;
+
+}
+
+div#saber > p > a{
+    text-decoration: none;
+    background-color: #0086B2;
+    color: yellow;
+    padding: 8px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: block;
+    width: 100px;
+    margin-left: 10px;
+    font-weight: bold;
+
+}
+
+div#saber > p > a:hover{
+    box-shadow: 1px 2px 4px white;
+    transform: translate(-3px, -3px);
+    transition-duration: 0.3s;
+
+}
+
+marquee{
+    background-color: #0086B2;
+    color: yellow;
+    font-weight: bold;
+    padding: 8px;
+    box-shadow: 1px 1px 5px rgba(255, 255, 255, 0.467);
+    width: 450px;
+    margin: auto;
+    display: block;
+    border-radius: 5px;
+
+}
+

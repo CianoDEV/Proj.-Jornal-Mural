@@ -1,0 +1,193 @@
+@charset "UTF-8";
+
+/*Configuração media-queries*/
+
+/*Typical Device Breakpoints
+----------------------------
+
+Pequenas telas: até 600px
+Celular: 600px/768px
+Tablet: 768px/992px
+Desktop: 992px/1200px
+Grandes telas: acima de 1200px
+
+*/
+
+@media screen and (min-width: 768px) and (max-width: 992px){ /*Tablet*/
+    img#logo-noesa{
+        width: 235px;
+    
+    }
+    
+    h1{
+        font-size: 50px;
+    
+    }
+    
+    p#título{
+        font-size: 20px;
+    
+    }
+    
+    section#boas-vindas{
+        width: 750px;
+        text-align: center;
+    
+    }
+
+/*------------------------------------------*/
+
+main{
+    width: 765px;
+    padding: 8px;
+    margin-bottom: 20px;
+
+}
+
+main > h2{
+    font-size: 25px;
+
+}
+
+main > section{
+    width: 740px;
+
+}
+
+p#matéria{
+    width: 700px;
+
+}
+
+marquee{
+    width: 760px;
+
+}
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px){ /*Desktop*/
+    img#logo-noesa{
+        width: 240px;
+    
+    }
+    
+    h1{
+        font-size: 50px;
+    
+    }
+    
+    section#boas-vindas{
+        width: 900px;
+        text-align: center;
+    
+    }
+
+/*------------------------------------------*/
+
+main{
+    width: 914px;
+    margin-bottom: 20px;
+
+}
+
+main > h2{
+    font-size: 26px;
+
+}
+
+main > section{
+    width: 870px;
+
+}
+
+p#matéria{
+    width: 850px;
+
+}
+
+img#foto01{
+    width: 300px;
+
+}
+
+img#foto02{
+    width: 400px;
+
+}
+
+img#foto03{
+    width: 400px;
+    height: 280px;
+
+}
+
+marquee{
+    width: 900px;
+
+}
+
+}
+
+@media screen and (min-width: 1200px){ /*TV*/
+    img#logo-noesa{
+        width: 250px;
+    
+    }
+    
+    h1{
+        font-size: 50px;
+    
+    }
+    
+    section#boas-vindas{
+        width: 900px;
+        text-align: center;
+    
+    }
+
+/*------------------------------------------*/
+
+main{
+    width: 914px;
+    margin-bottom: 20px;
+
+}
+
+main > h2{
+    font-size: 26px;
+
+}
+
+main > section{
+    width: 870px;
+
+}
+
+p#matéria{
+    width: 850px;
+
+}
+
+img#foto01{
+    width: 300px;
+
+}
+
+img#foto02{
+    width: 400px;
+
+}
+
+img#foto03{
+    width: 400px;
+    height: 280px;
+
+}
+
+marquee{
+    width: 1200px;
+
+}
+
+}
